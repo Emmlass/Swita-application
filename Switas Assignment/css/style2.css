@@ -1,0 +1,238 @@
+/* Adding external fonts */
+@font-face {
+  font-family: "Sailec";
+  src: url("../Sailec-Font/Sailec/SailecLight.ttf") format("truetype");
+}
+/* 
+Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+
+ 
+
+  .create{
+
+  }
+
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  
+  
+  body{
+    /*display: flex;*/ 
+    margin: 0;
+    font-family: "Sailec", sans-serif;
+    justify-content: center;
+    align-items: center;
+        
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+ 
+  
+  
+  section.login-form{
+    background-image: linear-gradient(194deg,#4b3393,#4b3393 54%,#f8ce78 0,#f8ce78 56%,#fff 0,#fff)
+  }
+  
+ 
+  
+  
+  
+  form{
+    /* Center the form on the page */
+    margin: 10px auto;
+    
+    width: 450px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);   
+    
+  }
+  
+  input[type="email"], input[type="password"]{
+    display: block;
+    width: 89%;
+    padding: 13px 20px;
+    margin: 10px auto;
+    border: 1px solid rgba(218, 211, 211, 0.5);
+    border-radius: 0.5rem;
+
+  }
+
+  input[type="email"]:active, input[type="password"]:active{
+    border: 1px dashed rgb(28, 6, 90)
+  }
+
+
+  input[type="checkbox"]{    background-color: rgb(154, 129, 221);
+    margin-left: 25px;
+    padding: 20px;
+
+    
+  }
+  input[type="checkbox"]:checked{
+    background-image: url(https://app.fincra.com/images/check.svg);
+    background-repeat: no-repeat;
+    background-position: 4px 6px;
+    border-width: 0;
+    --tw-bg-opacity: 1;
+    background-color: rgb(117 53 253/var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+  }
+
+  section.checkbox{
+
+
+
+  }
+
+  input :active{    
+    border: 1px dotted #000
+  }
+  
+ label{
+    margin-top: 100px;
+    margin-left: 5px;
+    padding: 50px 16px;
+    color:#1c065a;
+    font-size: 14px;
+    font-weight: 700;
+  } 
+  label.checkbox {
+    margin: 0;
+    padding: 20px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(28, 6, 90,1);
+
+  }
+
+  button{
+    display: block;
+    width: 88%;
+    padding: 13px;
+    margin: 23px auto;
+    cursor: pointer;   
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+
+  }
+  
+  .login-button{
+    background-color: #7535fd;
+   
+
+  }
+  
+section > p{
+  padding: 0px 10px;
+  margin: 0px;
+  margin-right: 12px;
+}
+
+
+
+
+
+  div.flex  a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:#7535fd ;
+    font-weight: 700;
+    justify-content: center;
+    padding: 10px 5px;
+    
+  }
+
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+
+  section.login-form img{    
+    display: block; 
+    margin: 0px auto;
+    padding : 10px  ;
+
+  }
+  h2 {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 1.2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold; 
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  section h2{
+   
+  }
+  .center{
+    align-items: center;
+  }
+
+  .dark-purple{
+    color: #1C065a;
+
+  }
+
+div{
+  display: flex;
+}
+
+div.btn{
+  align-items: center;
+  /* justify-content: center; */
+}
+
+section.right-align{
+  display: flex;
+  align-items: space-between;
+  justify-content: flex-end;
+ 
+}
+div.flex {
+  display: flex;
+  justify-content: center;
+}
+
+div.flex > span{
+
+}

@@ -1,0 +1,108 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+body{
+  /* display: flex; */
+  margin: 0;
+  
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+  
+
+
+  
+}
+
+
+
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+main {
+
+  margin: 0;
+  background-image: linear-gradient(194deg,#4b3393,#4b3393 54%,#f8ce78 0,#f8ce78 56%,#fff 0,#fff 0);
+  height: 100%;
+  width: 100%;
+  
+
+}
+
+.wrapper form{
+
+  background-color: rgb(206, 26, 26) !important;
+}
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+  padding: 20px;
+
+  
+}
+
+
+
+ul>li{
+  list-style: none;
+  ;
+
+}
+
+ul h2{
+  text-align: center;
+  color:#1C065A ;
+}
+
+
+form{
+  display:flex;
+  
+  /* Center the form on the page */
+  margin: 70px auto;
+  margin-top: 100px;
+  width: 450px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  border : 1px solid #ccc; 
+  background-color: rgb(255, 255, 255 )
+      
+}
+
+li input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
